@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Winkin grocery delivery application by Arishna IoT Solutions Pvt. Ltd.">
+  <title>Winkin — Privacy Policy | Arishna IoT Solutions</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary: #4F46E5;
+      --primary-light: #EEF2FF;
+      --accent: #06B6D4;
+      --green: #10B981;
+      --green-light: #D1FAE5;
+      --red: #EF4444;
+      --red-light: #FEE2E2;
+      --text: #1E1B4B;
+      --text-secondary: #5F6675;
+      --surface: #FFFFFF;
+      --bg: #F7F8FC;
+      --border: #E5E7EB;
+      --radius: 16px;
+      --shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: auto;
+      padding: 15px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 18px;
+      border: 1px solid #D9DDFC;
+    }
+
+    .brand strong { display: block; font-size: 15px; }
+    .brand span { display: block; color: #7A8190; font-size: 12px; }
+
+    .badge {
+      margin-left: auto;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #4F46E5, #7C3AED 55%, #06B6D4);
+      color: #fff;
+      text-align: center;
+      padding: 58px 20px 64px;
+    }
+
+    .hero-logo {
+      width: 92px;
+      height: 92px;
+      border-radius: 22px;
+      background: rgba(255,255,255,.96);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 22px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.18);
+      font-size: 36px;
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 38px);
+      line-height: 1.2;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+
+    .hero p { color: rgba(255,255,255,.86); }
+
+    .date {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 6px 15px;
+      border: 1px solid rgba(255,255,255,.25);
+      background: rgba(255,255,255,.12);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: auto;
+      padding: 36px 20px 70px;
+    }
+
+    .intro, .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .intro {
+      padding: 28px 30px;
+      margin-bottom: 22px;
+    }
+
+    .intro p { color: var(--text-secondary); }
+    .intro p + p { margin-top: 12px; }
+
+    .section {
+      padding: 28px 30px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 19px;
+      line-height: 1.3;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    h3 {
+      font-size: 15px;
+      margin: 20px 0 8px;
+      color: var(--text);
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 10px 0 10px 22px;
+      color: var(--text-secondary);
+    }
+
+    li { margin-bottom: 8px; }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 14px;
+    }
+
+    .data-table th,
+    .data-table td {
+      border: 1px solid var(--border);
+      padding: 11px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .data-table th {
+      background: #F8F9FC;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .notice {
+      margin-top: 16px;
+      padding: 15px 17px;
+      border-radius: 10px;
+      background: var(--primary-light);
+      border: 1px solid #C7D2FE;
+      color: #3730A3;
+      font-size: 13.5px;
+    }
+
+    .negative li::marker { color: var(--red); }
+
+    .contact {
+      background: linear-gradient(135deg, #4F46E5, #7C3AED);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 30px;
+      text-align: center;
+      margin-top: 22px;
+    }
+
+    .contact h2 { color: #fff; }
+    .contact p { color: rgba(255,255,255,.82); }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 6px;
+      color: #fff;
+      padding: 11px 20px;
+      border: 1px solid rgba(255,255,255,.3);
+      background: rgba(255,255,255,.12);
+      border-radius: 999px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 20px;
+      color: #777E8B;
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      background: #fff;
+    }
+
+    @media (max-width: 600px) {
+      .header-inner { padding: 12px 15px; }
+      .badge { display: none; }
+      .hero { padding: 45px 18px 52px; }
+      .page { padding: 22px 12px 50px; }
+      .section, .intro { padding: 21px 18px; }
+      .data-table { font-size: 13px; }
+      .data-table th, .data-table td { padding: 9px 8px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-mark">W</div>
+    <div class="brand">
+      <strong>Winkin</strong>
+      <span>Arishna IoT Solutions Pvt. Ltd.</span>
+    </div>
+    <div class="badge">Privacy Policy</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-logo">W</div>
+  <h1>Privacy Policy</h1>
+  <p>Winkin Grocery Delivery Application</p>
+  <div class="date"><strong>Last Updated:</strong> August 16, 2026</div>
+</section>
+
+<main class="page">
+
+  <section class="intro">
+    <p><strong>Arishna IoT Solutions Pvt. Ltd.</strong> ("Arishna", "we", "our", or "us") operates the <strong>Winkin</strong> mobile application and related web platform (collectively, the "App").</p>
+    <p>This Privacy Policy explains what information we collect, how we use it, when it may be shared, how we protect it, and the choices available to you when using Winkin.</p>
+    <p>Winkin is a grocery and everyday-essentials delivery service intended for a general audience. We do not knowingly collect personal information from children for the purpose of creating accounts or providing targeted services.</p>
+  </section>
+
+  <section class="section">
+    <h2>1. About Winkin</h2>
+    <p>Winkin provides on-demand delivery of groceries, farm-fresh products, beverages, household essentials, snacks, pantry items, and other products. The App may provide order placement, delivery updates, customer support, notifications, and delivery tracking features.</p>
+  </section>
+
+  <section class="section">
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Information You Provide</h3>
+    <p>Depending on the features you use, we may collect:</p>
+    <ul>
+      <li><strong>Name:</strong> to identify you and fulfil your orders.</li>
+      <li><strong>Email address:</strong> for account authentication, password recovery, order information, invoices, and customer support.</li>
+      <li><strong>Phone number:</strong> for delivery communication, account-related communication, and order status messages.</li>
+      <li><strong>Delivery address and postcode:</strong> to calculate delivery availability, delivery windows, and complete doorstep delivery.</li>
+      <li><strong>Order information:</strong> products purchased, quantities, order status, delivery information, and related transaction records.</li>
+      <li><strong>Information you provide to customer support:</strong> such as the content of your support request and information needed to resolve it.</li>
+    </ul>
+
+    <h3>2.2 Device and Technical Information</h3>
+    <p>When you use the App, certain technical information may be collected automatically to operate and secure the service, including:</p>
+    <ul>
+      <li>Firebase Cloud Messaging (FCM) registration tokens for push notifications.</li>
+      <li>Device model and operating system information.</li>
+      <li>App version and language settings.</li>
+      <li>Crash, diagnostic, and performance information where Firebase Crashlytics is enabled.</li>
+    </ul>
+
+    <h3>2.3 Location and Delivery Tracking</h3>
+    <p>Winkin may use delivery-related location information where necessary to support delivery tracking or determine delivery status. We do not claim continuous background location collection when the App is closed unless the feature is specifically enabled and disclosed to you.</p>
+    <div class="notice">
+      If a future version of Winkin requests a location permission or uses background location, the relevant in-app disclosure, permission request, and this Privacy Policy will be updated before that functionality is introduced.
+    </div>
+
+    <h3>2.4 Payment Information</h3>
+    <p>Payments may be processed through third-party payment providers. We do not intentionally store raw payment card numbers on our own application servers. Payment providers may collect and process payment information according to their own privacy policies and terms.</p>
+  </section>
+
+  <section class="section">
+    <h2>3. How We Use Information</h2>
+    <p>We use information only for legitimate operational, service, security, and customer-support purposes, including:</p>
+    <ul>
+      <li>Creating and managing customer accounts.</li>
+      <li>Processing, preparing, and delivering grocery orders.</li>
+      <li>Calculating delivery availability and delivery windows.</li>
+      <li>Sending order confirmations, delivery updates, push notifications, SMS messages, and email receipts.</li>
+      <li>Communicating with customers about orders and delivery issues.</li>
+      <li>Providing customer support.</li>
+      <li>Maintaining account security and preventing fraud or misuse.</li>
+      <li>Diagnosing crashes, improving reliability, and maintaining platform performance.</li>
+      <li>Complying with applicable legal and regulatory obligations.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>4. Push Notifications, SMS and Email</h2>
+    <p>Winkin may send transactional communications related to your account and orders. These may include order confirmation, order preparation, dispatch, delivery status, and invoice or receipt notifications.</p>
+    <p>Push notifications may use Firebase Cloud Messaging (FCM). SMS delivery may use third-party SMS providers such as Twilio or The SMS Works where configured. Email may be used for account and order-related communication.</p>
+  </section>
+
+  <section class="section">
+    <h2>5. Third-Party Services</h2>
+    <p>Winkin may use trusted third-party service providers to operate specific functions of the App. Depending on the version and configuration of the App, these may include:</p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google Firebase Authentication</td>
+          <td>Account authentication and account management.</td>
+        </tr>
+        <tr>
+          <td>Firebase Cloud Messaging (FCM)</td>
+          <td>Push notifications and order status alerts.</td>
+        </tr>
+        <tr>
+          <td>Firebase Crashlytics</td>
+          <td>Crash reporting, diagnostics, and application stability.</td>
+        </tr>
+        <tr>
+          <td>SMS providers such as Twilio / The SMS Works</td>
+          <td>Transactional SMS and delivery-related communication.</td>
+        </tr>
+        <tr>
+          <td>Payment providers</td>
+          <td>Secure processing of customer payments where applicable.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top:14px;">Third-party providers may process information on our behalf to provide their services. Their processing may also be subject to their own privacy policies and terms.</p>
+    <p>We do not sell, rent, or trade your personal information to third parties or advertisers.</p>
+  </section>
+
+  <section class="section">
+    <h2>6. Analytics and Crash Reporting</h2>
+    <p>Where enabled in the App, Firebase services may collect technical and usage information to help us understand application performance, diagnose crashes, and improve the service.</p>
+    <ul>
+      <li>Device type and operating system version.</li>
+      <li>App version and configuration information.</li>
+      <li>Crash reports and diagnostic information.</li>
+      <li>Performance information and relevant usage events.</li>
+    </ul>
+    <p>We use such information for service operation, troubleshooting, security, and improvement of Winkin. The exact information processed may vary according to the SDKs and configuration included in a particular App version.</p>
+  </section>
+
+  <section class="section">
+    <h2>7. Information We Do Not Collect or Share</h2>
+    <ul class="negative">
+      <li>We do not sell or rent personal information to advertisers.</li>
+      <li>We do not intentionally store raw payment card numbers on our own servers.</li>
+      <li>We do not continuously track precise GPS location in the background when the App is closed unless such functionality is introduced with the required disclosures and permissions.</li>
+      <li>We do not use personal information for purposes unrelated to the operation of Winkin without an appropriate legal basis and disclosure.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>8. Data Sharing</h2>
+    <p>We may share or provide access to information to service providers only when reasonably necessary to operate Winkin, such as delivery operations, authentication, messaging, crash reporting, hosting, payment processing, customer support, security, or legal compliance.</p>
+    <p>We may also disclose information when required by applicable law, regulation, legal process, or a valid governmental request, or when necessary to protect the rights, safety, security, and integrity of Winkin, our users, or others.</p>
+  </section>
+
+  <section class="section">
+    <h2>9. Data Security</h2>
+    <p>We take reasonable technical and organizational measures to protect personal information against unauthorized access, loss, misuse, alteration, or disclosure.</p>
+    <p>Data transmitted between the App and our services is protected using modern encryption such as HTTPS/TLS where supported. Access to personal information is limited to authorized personnel and service providers who need it for legitimate purposes.</p>
+    <p>No electronic transmission or storage system can be guaranteed to be completely secure.</p>
+  </section>
+
+  <section class="section">
+    <h2>10. Data Retention</h2>
+    <p>We retain personal information only for as long as reasonably necessary to provide Winkin services, maintain business and transaction records, resolve disputes, prevent fraud, enforce agreements, and comply with applicable legal obligations.</p>
+    <p>When information is no longer required for these purposes, we take reasonable steps to delete it, anonymize it, or securely dispose of it, subject to legal and operational requirements.</p>
+  </section>
+
+  <section class="section">
+    <h2>11. Account and Data Deletion</h2>
+    <p>If you have a Winkin account, you may request deletion of your account and associated personal information. You can make a deletion request by contacting us using the email address provided below.</p>
+    <p>When we receive a valid deletion request, we will take reasonable steps to delete the account and associated personal information, except where retention is required or permitted by applicable law, for example for financial records, fraud prevention, dispute resolution, or legal compliance.</p>
+    <div class="notice">
+      If an account-deletion feature is provided inside the App, users may also use that feature to submit a deletion request. Any applicable deletion process should remain consistent with the information stated in this Privacy Policy and in Google Play's Data safety section.
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>12. Children's Privacy</h2>
+    <p>Winkin is a general-audience grocery delivery application and is not specifically directed to children.</p>
+    <p>We do not knowingly request or collect personal information from children for the purpose of creating accounts or providing grocery delivery services. If a parent or guardian believes that a child has provided personal information to us, please contact us so that we can review the matter and take appropriate action.</p>
+  </section>
+
+  <section class="section">
+    <h2>13. Your Privacy Rights</h2>
+    <p>Depending on your location and applicable law, you may have rights concerning your personal information, including the right to:</p>
+    <ul>
+      <li>Request access to personal information we hold about you.</li>
+      <li>Request correction of inaccurate or incomplete information.</li>
+      <li>Request deletion of your personal information, subject to legal exceptions.</li>
+      <li>Object to or request restriction of certain processing where applicable.</li>
+      <li>Withdraw consent where processing is based on consent.</li>
+      <li>Request information about how your personal information is processed.</li>
+    </ul>
+    <p>To exercise applicable rights, contact us using the details below. We may need to verify your identity before fulfilling certain requests.</p>
+  </section>
+
+  <section class="section">
+    <h2>14. International Data Transfers</h2>
+    <p>Some service providers used by Winkin may process information in countries other than the country in which you live. Where required by applicable law, we take reasonable steps to ensure that appropriate safeguards are used for international transfers.</p>
+  </section>
+
+  <section class="section">
+    <h2>15. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes to Winkin, our services, third-party services, or applicable legal requirements.</p>
+    <p>When changes are made, we will update the <strong>Last Updated</strong> date at the top of this page. We encourage users to review this policy periodically.</p>
+  </section>
+
+  <section class="contact">
+    <h2>16. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, your personal information, or a data-deletion request, please contact:</p>
+    <p><strong>Arishna IoT Solutions Pvt. Ltd.</strong><br>
+      Winkin Delivery Team</p>
+    <p>
+      <a href="mailto:support@winkin.store">support@winkin.store</a>
+    </p>
+    <p>
+      Website:
+      <a href="https://winkin.store" target="_blank" rel="noopener noreferrer">winkin.store</a>
+    </p>
+    <p>Location: United Kingdom</p>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Arishna IoT Solutions Pvt. Ltd. · Winkin Privacy Policy · Last Updated: August 16, 2026
+</footer>
+
+</body>
+</html>
