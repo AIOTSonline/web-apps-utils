@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winkin Support & Help Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2E8B57;
+      --primary-dark: #1E5C3A;
+      --primary-light: #E8F5E9;
+      --text-main: #0F172A;
+      --text-muted: #64748B;
+      --bg-page: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border-color: #E2E8F0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1E5C3A 0%, #2E8B57 100%);
+      color: white;
+      padding: 48px 24px 64px;
+      text-align: center;
+    }
+
+    .brand-logo {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    header h1 {
+      font-size: 34px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: -32px auto 48px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .contact-item {
+      background: var(--bg-page);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .contact-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .contact-val {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 4px;
+      word-break: break-word;
+    }
+
+    .contact-val a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact-val a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .faq-question {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    .faq-answer {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.5;
+    }
+
+    .badge-alert {
+      background: #FFF1F2;
+      border: 1px solid #FECDD3;
+      color: #9F1239;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 14px;
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+
+    .btn-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 10px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 20px 48px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand-logo">
+      <span>🌾</span> Winkin
+    </div>
+    <h1>Customer Support & Help Center</h1>
+    <p>We are here to assist you with orders, deliveries, and account management.</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Contact Channels -->
+    <div class="card">
+      <h2>📬 Contact Us</h2>
+      <p style="color: var(--text-muted); font-size: 14px;">Our support team is active 7 days a week to ensure fast assistance.</p>
+      
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-label">Email Support</div>
+          <div class="contact-val">
+            <a href="mailto:support@winkin.store">support@winkin.store</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">⏰</div>
+          <div class="contact-label">Operating Hours</div>
+          <div class="contact-val">7:00 AM - 11:00 PM (GMT)</div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">⚡</div>
+          <div class="contact-label">Response Time</div>
+          <div class="contact-val">Under 15 Minutes</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Account Deletion (Apple Guideline 5.1.1 Compliance) -->
+    <div class="card">
+      <h2>🗑️ Account Deletion & Data Privacy</h2>
+      <p style="font-size: 14px; color: #475569;">
+        You can permanently delete your Winkin account and associated data directly within the app at any time.
+      </p>
+
+      <div class="badge-alert">
+        <strong>Steps to delete your account:</strong><br>
+        1. Open the <strong>Winkin app</strong> on your iPhone or iPad.<br>
+        2. Tap on the <strong>Profile (Barn)</strong> tab in the bottom menu.<br>
+        3. Scroll down and tap <strong>"Delete Account"</strong>.<br>
+        4. Select your reason, check the confirmation box, and confirm deletion.<br>
+        <em>All your personal data, order history, active referrals, and saved addresses will be immediately purged.</em>
+      </div>
+
+      <p style="font-size: 13px; color: var(--text-muted); margin-top: 12px;">
+        To request manual deletion via email, send a message to <a href="mailto:privacy@winkin.store" style="color: var(--primary); font-weight: 600;">privacy@winkin.store</a> with your registered phone number.
+      </p>
+    </div>
+
+    <!-- FAQ -->
+    <div class="card">
+      <h2>❓ Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question">1. How do I track my order?</div>
+        <div class="faq-answer">
+          You will receive real-time push notifications once your order is confirmed, and you can view live delivery progress in the <strong>Order History</strong> section of the app.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">2. What is your refund policy?</div>
+        <div class="faq-answer">
+          If any item in your order is missing, damaged, or incorrect, please email <a href="mailto:support@winkin.store">support@winkin.store</a> within 24 hours of delivery for a replacement or full refund.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">3. How do I update my profile or delivery address?</div>
+        <div class="faq-answer">
+          You can update your name and phone number in the <strong>Profile</strong> screen, and manage delivery addresses during checkout.
+        </div>
+      </div>
+    </div>
+
+    <!-- Legal & Terms of Use -->
+    <div class="card">
+      <h2>📄 Terms of Use & Policies</h2>
+      <p style="font-size: 14px; color: var(--text-muted);">
+        Review our standard terms and Apple license agreement:
+      </p>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" class="btn-pill">
+        📄 Apple Standard EULA (Terms of Use) ↗
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Winkin. Developed by Arishna IoT Solutions. All rights reserved.</p>
+    <p style="margin-top: 4px;">Support: <a href="mailto:support@winkin.store">support@winkin.store</a></p>
+  </footer>
+
+</body>
+</html>
